@@ -1,0 +1,7 @@
+id = "claude"
+name = "Claude+"
+version = "0.0.1"
+schema_version = 1
+authors = ["Nick Rohner"]
+description = "A Claude inspired color theme"
+repository = "https://github.com/NRohner/claude-plus-theme-zed"
