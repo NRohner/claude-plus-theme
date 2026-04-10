@@ -1,6 +1,6 @@
 id = "claude-plus"
 name = "Claude+"
-version = "0.0.1"
+version = "1.0.0"
 schema_version = 1
 authors = ["Nick Rohner"]
 description = "A Claude inspired color theme"
