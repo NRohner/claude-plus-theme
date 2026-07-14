@@ -1,0 +1,124 @@
+/* Claude+ — a Claude inspired theme for Obsidian
+   Built on Obsidian's own CSS variables: set the base ramp, the accent and the
+   code tokens, and everything else derives. */
+
+/* ---------- Dark ---------- */
+.theme-dark {
+  --color-base-00: #1e1d1b;
+  --color-base-05: #232220;
+  --color-base-10: #252422;
+  --color-base-20: #2e2d2a;
+  --color-base-25: #33322e;
+  --color-base-30: #3a3832;
+  --color-base-35: #45433c;
+  --color-base-40: #5c5a52;
+  --color-base-50: #6e6c64;
+  --color-base-60: #8a877e;
+  --color-base-70: #b0aea5;
+  --color-base-100: #f1f0ec;
+
+  --color-red: #d07277;
+  --color-orange: #d97757;
+  --color-yellow: #d4b06a;
+  --color-green: #8fa876;
+  --color-cyan: #6eb4bf;
+  --color-blue: #6a9bcc;
+  --color-purple: #b07cc5;
+  --color-pink: #d9a48c;
+
+  --accent-h: 15;
+  --accent-s: 63%;
+  --accent-l: 60%;
+
+  --text-selection: #d9775742;
+  --text-highlight-bg: #d977574d;
+  --background-modifier-hover: #d9775721;
+  --background-modifier-active-hover: #d977573a;
+
+  --code-normal: #d0cfc8;
+  --code-comment: #5c5a52;
+  --code-function: #6a9bcc;
+  --code-important: #d97757;
+  --code-keyword: #b07cc5;
+  --code-operator: #d9a48c;
+  --code-property: #d97757;
+  --code-punctuation: #b0aea5;
+  --code-string: #8fa876;
+  --code-tag: #d97757;
+  --code-value: #d4b06a;
+}
+
+/* ---------- Light ---------- */
+.theme-light {
+  --color-base-00: #faf9f5;
+  --color-base-05: #f7f6f1;
+  --color-base-10: #f5f4ef;
+  --color-base-20: #f1f0ec;
+  --color-base-25: #e8e6dc;
+  --color-base-30: #dad8d0;
+  --color-base-35: #cfccc2;
+  --color-base-40: #b0aea5;
+  --color-base-50: #8a877e;
+  --color-base-60: #6e6c64;
+  --color-base-70: #3a3832;
+  --color-base-100: #141413;
+
+  --color-red: #c24e4e;
+  --color-orange: #c15f3c;
+  --color-yellow: #a88c30;
+  --color-green: #598050;
+  --color-cyan: #4a9aa5;
+  --color-blue: #4a7da8;
+  --color-purple: #8c5ba0;
+  --color-pink: #c1906a;
+
+  --accent-h: 16;
+  --accent-s: 53%;
+  --accent-l: 50%;
+
+  --text-selection: #c15f3c30;
+  --text-highlight-bg: #d9775740;
+  --background-modifier-hover: #c15f3c1e;
+  --background-modifier-active-hover: #c15f3c2a;
+
+  --code-normal: #3a3832;
+  --code-comment: #a5a29a;
+  --code-function: #4a7da8;
+  --code-important: #c15f3c;
+  --code-keyword: #8c5ba0;
+  --code-operator: #c1906a;
+  --code-property: #c15f3c;
+  --code-punctuation: #6e6c64;
+  --code-string: #598050;
+  --code-tag: #c15f3c;
+  --code-value: #a88c30;
+}
+
+/* ---------- Shared ---------- */
+body {
+  /* Headings step through the palette instead of all-accent. */
+  --h1-color: var(--color-orange);
+  --h2-color: var(--color-orange);
+  --h3-color: var(--color-blue);
+  --h4-color: var(--color-cyan);
+  --h5-color: var(--color-purple);
+  --h6-color: var(--text-muted);
+
+  --link-color: var(--color-blue);
+  --link-color-hover: var(--color-orange);
+  --link-external-color: var(--color-cyan);
+  --link-external-color-hover: var(--color-orange);
+
+  --blockquote-border-color: var(--color-orange);
+  --blockquote-color: var(--text-muted);
+
+  --checkbox-color: var(--color-orange);
+  --checkbox-color-hover: var(--color-orange);
+  --tag-color: var(--color-orange);
+
+  --graph-line: var(--background-modifier-border);
+  --graph-node: var(--text-muted);
+  --graph-node-focused: var(--color-orange);
+  --graph-node-tag: var(--color-green);
+  --graph-node-attachment: var(--color-cyan);
+}

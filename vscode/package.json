@@ -1,0 +1,34 @@
+{
+  "name": "claude-plus",
+  "displayName": "Claude+",
+  "description": "A Claude inspired color theme",
+  "version": "1.0.0",
+  "publisher": "NRohner",
+  "license": "MIT",
+  "author": {
+    "name": "Nick Rohner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NRohner/claude-plus-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["claude", "anthropic", "theme", "dark", "light"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude+ Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-plus-dark-color-theme.json"
+      },
+      {
+        "label": "Claude+ Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-plus-light-color-theme.json"
+      }
+    ]
+  }
+}
