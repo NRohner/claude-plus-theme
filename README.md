@@ -19,6 +19,7 @@ Each theme ships in both a **Dark** and a **Light** variant.
 | Zed | [`zed/`](./zed) | [zed/README.md](./zed/README.md) |
 | VS Code | [`vscode/`](./vscode) | [vscode/README.md](./vscode/README.md) |
 | Obsidian | [`obsidian/`](./obsidian) | [obsidian/README.md](./obsidian/README.md) |
+| Warp | [`warp/`](./warp) | [warp/README.md](./warp/README.md) |
 
 ## Palette
 
@@ -44,12 +45,13 @@ Each theme ships in both a **Dark** and a **Light** variant.
 zed/        Zed extension (extension.toml + themes/)
 vscode/     VS Code extension (package.json + themes/)
 obsidian/   Obsidian theme (manifest.json + theme.css)
+warp/       Warp terminal theme (two YAML files)
 screenshots/
 ```
 
 ## Contributing
 
-Changing a color? Change it in the palette table above and in all three ports, so they stay in sync.
+Changing a color? Change it in the palette table above and in every port, so they stay in sync.
 
 ## License
 

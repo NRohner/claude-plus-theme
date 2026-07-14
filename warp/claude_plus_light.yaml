@@ -1,0 +1,24 @@
+name: 'Claude+ Light'
+accent: '#c15f3c'
+background: '#f5f4ef'
+foreground: '#141413'
+details: lighter
+terminal_colors:
+  normal:
+    black: '#141413'
+    red: '#c24e4e'
+    green: '#598050'
+    yellow: '#a88c30'
+    blue: '#4a7da8'
+    magenta: '#8c5ba0'
+    cyan: '#4a9aa5'
+    white: '#b0aea5'
+  bright:
+    black: '#6e6c64'
+    red: '#d45a5a'
+    green: '#6b9460'
+    yellow: '#c0a040'
+    blue: '#5b90bb'
+    magenta: '#a070b5'
+    cyan: '#5badb8'
+    white: '#faf9f5'
